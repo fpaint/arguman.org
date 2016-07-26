@@ -1,0 +1,1140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Arguman\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-13 15:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Alois Guillope <alois.guillope@gmail.com>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: blog/admin.py:18
+msgid "Publish selected posts"
+msgstr "Опубликовать выбранные посты"
+
+#: blog/admin.py:22
+msgid "Mark as draft selected posts"
+msgstr "Пометить выбранные посты как черновики"
+
+#: blog/models.py:21
+msgid "Name"
+msgstr "Имя"
+
+#: blog/models.py:22
+msgid "Slug"
+msgstr "URL"
+
+#: blog/models.py:23
+msgid "Content"
+msgstr "Содержание"
+
+#: blog/models.py:26 premises/models.py:480
+msgid "Published"
+msgstr "Опубликовано"
+
+#: nouns/models.py:172
+msgid "is a"
+msgstr "это"
+
+#: nouns/models.py:173
+msgid "part of"
+msgstr "часть от"
+
+#: nouns/models.py:174 nouns/models.py:198
+msgid "opposite with"
+msgstr "противоположность"
+
+#: nouns/models.py:196 nouns/models.py:197
+msgid "whole of"
+msgstr "содержит"
+
+#: premises/forms.py:33
+msgid "You should write a premise or link an argument."
+msgstr "Вы должны написать возражение или сослаться на аргумент."
+
+#: premises/models.py:40 templates/premises/contention.html:6
+#: templates/premises/contention_list.html:13 templates/premises/thread.html:31
+msgid "but"
+msgstr "но"
+
+#: premises/models.py:41 templates/premises/contention.html:5
+#: templates/premises/contention_list.html:12 templates/premises/thread.html:36
+msgid "because"
+msgstr "потому что"
+
+#: premises/models.py:42 templates/premises/contention.html:7
+#: templates/premises/contention_list.html:14 templates/premises/thread.html:41
+msgid "however"
+msgstr "однако"
+
+#: premises/models.py:46
+msgid "Begging The Question"
+msgstr "Pétition de principe"
+
+#: premises/models.py:47
+msgid "Irrelevant Conclusion"
+msgstr "Conclusion excessive"
+
+#: premises/models.py:48
+msgid "Fallacy Of Irrelevant Purpose"
+msgstr ""
+
+#: premises/models.py:49
+msgid "Fallacy Of Red Herring"
+msgstr "Fausse piste"
+
+#: premises/models.py:50
+msgid "Argument Against TheMan"
+msgstr "Attaque ad hominem"
+
+#: premises/models.py:51
+msgid "Poisoning The Well"
+msgstr "Empoisonner le puits"
+
+#: premises/models.py:52
+msgid "Fallacy Of The Beard"
+msgstr "Sophisme de continuité"
+
+#: premises/models.py:53
+msgid "Fallacy Of Slippery Slope"
+msgstr "Pente savonneuse"
+
+#: premises/models.py:54
+msgid "Fallacy Of False Cause"
+msgstr "Raisonnement post hoc"
+
+#: premises/models.py:55
+msgid "Fallacy Of Previous This"
+msgstr "Appel à la tradition"
+
+#: premises/models.py:56
+msgid "Joint Effect"
+msgstr "Effet conjoint"
+
+#: premises/models.py:57
+msgid "Wrong Direction"
+msgstr "Уход от темы"
+
+#: premises/models.py:58
+msgid "False Analogy"
+msgstr "Неверная аналогия"
+
+#: premises/models.py:59
+msgid "Slothful Induction"
+msgstr "Rejet d'induction"
+
+#: premises/models.py:60
+msgid "Appeal To Belief"
+msgstr "Обращение к "
+
+#: premises/models.py:61
+msgid "Pragmatic Fallacy"
+msgstr ""
+
+#: premises/models.py:62
+msgid "Fallacy Of Is To Ought"
+msgstr "Loi de Hume"
+
+#: premises/models.py:63
+msgid "Argument From Force"
+msgstr "Обращение к силе"
+
+#: premises/models.py:64
+msgid "Argument To Pity"
+msgstr "Обращение к жалости"
+
+#: premises/models.py:65
+msgid "Prejudicial Language"
+msgstr "Предубеждение"
+
+#: premises/models.py:66
+msgid "Fallacy Of Special Pleading"
+msgstr ""
+
+#: premises/models.py:67
+msgid "Appeal To Authority"
+msgstr "Обращение к авторитету"
+
+#: premises/models.py:73
+msgid "Argument"
+msgstr "Аргумент"
+
+#: premises/models.py:77
+msgid "Description"
+msgstr "Описание"
+
+#: premises/models.py:81
+msgid "Original Discourse"
+msgstr "Origine du débat"
+
+#: premises/models.py:85 premises/models.py:473
+msgid "Sources"
+msgstr "Источники"
+
+#: premises/models.py:460
+msgid "Parent"
+msgstr "Родитель"
+
+#: premises/models.py:461
+msgid ""
+"The parent of premise. If you don't choose anything, it will be a main "
+"premise."
+msgstr ""
+"La prémisse parente. Si vous n'en choisissez pas, la prémisse sera "
+"créée à la racine."
+
+#: premises/models.py:465
+msgid "Premise Type"
+msgstr "Тип возражения"
+
+#: premises/models.py:469
+msgid "Premise Content"
+msgstr "Суть возражения"
+
+#: premises/models.py:477
+msgid "Related Argument"
+msgstr "Соответствующий аргумент"
+
+#: premises/models.py:478
+msgid "You can also associate your premise with an argument."
+msgstr "Вы также можете связать своё возражение с существующим аргументом"
+
+#: premises/models.py:704
+msgid "Reason"
+msgstr "Причина"
+
+#: premises/models.py:705
+msgid "Please explain that why the premise is a fallacy."
+msgstr "Объясните, почему возражение демагогично"
+
+#: premises/models.py:707
+msgid "Fallacy Type"
+msgstr "Демагогический приём"
+
+#: profiles/forms.py:22
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: profiles/forms.py:24
+msgid "Required. 30 characters or fewer. Letters, digits and @/./+/-/_ only."
+msgstr "Обязательное. Не более 30 символов. Только буквы, цифры и знаки @/./+/-/_."
+
+#: profiles/forms.py:26
+msgid "Invalid characters"
+msgstr "Недопустимые символы"
+
+#: profiles/forms.py:54
+msgid "The two password fields didn't match."
+msgstr "Введённые пароли не совпадают"
+
+#: profiles/forms.py:62 templates/auth/password_reset_confirm.html:12
+msgid "New password"
+msgstr "Новый пароль"
+
+#: profiles/forms.py:66
+msgid "New password confirmation"
+msgstr "Подтверждение нового пароля"
+
+#: profiles/models.py:22
+msgid "email notification"
+msgstr "Извещение по е-мейлу"
+
+#: templates/auth/fallacies.html:28 templates/auth/premises.html:44
+#: templates/fallacies.html:29 templates/newsfeed.html:39
+#: templates/premises/contention_list.html:67
+msgid "Load more"
+msgstr "Загрузить ещё"
+
+#: templates/auth/login.html:7 templates/auth/login.html.py:11
+#: templates/auth/password_reset_complete.html:9
+msgid "Login"
+msgstr "Логин"
+
+#: templates/auth/login.html:7 templates/auth/register.html:7
+msgid "or login with Twitter"
+msgstr "или войти через Twitter"
+
+#: templates/auth/login.html:14
+msgid "Forgot your password?"
+msgstr "Забыли пароль?"
+
+#: templates/auth/login_popup.html:6
+#, python-format
+msgid ""
+"<a href=\"%(login_url)s\">Login</a> or <a href=\"%(register_url)s"
+"\">register</a> to add a premise for this argument."
+msgstr ""
+"<a href=\"%(login_url)s\">Войдите</a> ou <a "
+"href=\"%(register_url)s\">зарегистрируйтесь</a>, чтобы добавить возражение к этому аргументу."
+
+#: templates/auth/password_reset_complete.html:8
+msgid "The password changed successfully."
+msgstr "Пароль успешно изменён."
+
+#: templates/auth/password_reset_confirm.html:7
+msgid "Enter your password"
+msgstr "Введите свой пароль"
+
+#: templates/auth/password_reset_confirm.html:17
+msgid "New password (again)"
+msgstr "Новый пароль"
+
+#: templates/auth/password_reset_confirm.html:21
+msgid "Change my password"
+msgstr "Изменить пароль"
+
+#: templates/auth/password_reset_confirm.html:25
+msgid "Invalid password reset url."
+msgstr "Неверная ссылка для сброса пароля."
+
+#: templates/auth/password_reset_done.html:8
+msgid "We have sent an email to reset your password. Please check your inbox."
+msgstr ""
+"Мы отправили е-мейл с информацией для сброса пароля. Проверьте свой почтовый ящик."
+
+#: templates/auth/password_reset_email.html:2
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at arguman.org"
+msgstr ""
+"Вы получили этот е-мейл потому что запросили сброс пароля для своего аккаунта на arguman.org"
+
+#: templates/auth/password_reset_email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr ""
+"Перейдите по следующей ссылке и выберите новый пароль:"
+
+#: templates/auth/password_reset_email.html:8
+msgid "Your username, in case you've forgotten:"
+msgstr ""
+"Ваш логин, на всякий случай, если вы его забыли:"
+
+#: templates/auth/password_reset_form.html:7
+msgid "Reset Password"
+msgstr "Сбросить пароль"
+
+#: templates/auth/password_reset_form.html:10
+#: templates/nouns/new_relation.html:37 templates/premises/new_premise.html:15
+msgid "Submit"
+msgstr "Отправить"
+
+#: templates/auth/premises.html:22 templates/auth/profile.html:121
+#: templates/search/premise.html:11 templates/stats/premise.html:11
+msgid "supporter."
+msgstr "согласен."
+
+#: templates/auth/premises.html:27 templates/auth/profile.html:126
+#: templates/search/premise.html:16 templates/stats/premise.html:16
+msgid "fallacy report."
+msgstr "жалоба на демагогию."
+
+#: templates/auth/premises.html:39 templates/auth/profile.html:82
+#: templates/auth/profile.html.py:101 templates/auth/profile.html:138
+msgid "No data."
+msgstr "Нет данных."
+
+#: templates/auth/profile.html:21
+msgid "Twitter"
+msgstr ""
+
+#: templates/auth/profile.html:26
+msgid "date joined"
+msgstr "дата регистрации"
+
+#: templates/auth/profile.html:32
+msgid "Following"
+msgstr "Следит за"
+
+#: templates/auth/profile.html:41
+msgid "Followers"
+msgstr "Под наблюдением у"
+
+#: templates/auth/profile.html:53
+msgid "Overview"
+msgstr "Обзор"
+
+#: templates/auth/profile.html:54 templates/nouns/partial.html:16
+msgid "Arguments"
+msgstr "Аргументы"
+
+#: templates/auth/profile.html:55
+msgid "Premises"
+msgstr "Возражения"
+
+#: templates/auth/profile.html:56
+msgid "Fallacy Reports"
+msgstr "Демагогия"
+
+#: templates/auth/profile.html:59
+msgid "update profile"
+msgstr "обновить профиль"
+
+#: templates/auth/profile.html:63
+msgid "Unfollow"
+msgstr "Не следить"
+
+#: templates/auth/profile.html:65
+msgid "Follow"
+msgstr "Следить"
+
+#: templates/auth/profile.html:74
+msgid "Most active channels"
+msgstr "Самые активные каналы"
+
+#: templates/auth/profile.html:88
+msgid "Most discussed users"
+msgstr "Самые частые собеседники"
+
+#: templates/auth/profile.html:107
+msgid "Most supported premises"
+msgstr "Самые поддерживаемые возражения"
+
+#: templates/auth/register.html:7 templates/auth/register.html.py:17
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+#: templates/auth/register.html:12 templates/auth/update.html:10
+msgid ""
+"You can update your profile picture on <a href=\"http://gravatar.com"
+"\">gravatar.com</a>."
+msgstr ""
+"Вы можете обновить свою аватарку на <a href=\"http://gravatar.com\">gravatar.com</a>."
+
+#: templates/auth/update.html:6
+msgid "Update Profile"
+msgstr "Обновить профиль"
+
+#: templates/auth/update.html:14 templates/premises/edit_contention.html:11
+#: templates/premises/edit_premise.html:10
+msgid "Update"
+msgstr "Сохранить"
+
+#: templates/base.html:5
+msgid "Argument Analysis Platform. Create and analyze argument maps online."
+msgstr "Система Анализа Дискуссий. Создавайте и анализируйте дискуссии онлайн."
+
+#: templates/base.html:7
+msgid "Argument analysis and mapping platform"
+msgstr "Система анализа дискуссий и ???"
+
+#: templates/base.html:24
+msgid "Announcement:"
+msgstr "Объявление:"
+
+#: templates/base.html:35
+msgid "about"
+msgstr "про"
+
+#: templates/base.html:36
+msgid "blog"
+msgstr "блог"
+
+#: templates/base.html:38
+msgid "register"
+msgstr "зарегистрироваться"
+
+#: templates/base.html:39
+msgid "login"
+msgstr "войти"
+
+#: templates/base.html:41
+msgid "new argument"
+msgstr "новый аргумент"
+
+#: templates/base.html:43
+msgid "logout"
+msgstr "выйти"
+
+#: templates/base.html:47
+msgid "search keywords"
+msgstr "поиск ключевых слов"
+
+#: templates/base.html:52
+msgid "Languages:"
+msgstr "Языки:"
+
+#: templates/base.html:54
+msgid "English"
+msgstr "Английский"
+
+#: templates/base.html:56
+msgid "Turkish"
+msgstr "Турецкий"
+
+#: templates/base.html:58
+msgid "Chinese"
+msgstr "Китайский"
+
+msgid "Russian"
+msgstr "Русский"
+
+#: templates/base.html:59
+msgid "Follow on Twitter:"
+msgstr "Читать в Твиттере:"
+
+#: templates/base.html:72
+msgid ""
+"arguman.org is an open-source project. you can follow the <a href=\"http://"
+"github.com/arguman/arguman.org\">organization</a> on github."
+msgstr ""
+"arguman.org это проект с открытым исходным кодом. Вы можете узнать больше на <a href=\"http://github.com/arguman"
+"\">github</a>."
+
+#: templates/base.html:78
+msgid "Terms of Service"
+msgstr "Условия использования"
+
+#: templates/base.html:79
+msgid "Feedback"
+msgstr "Обратная связь"
+
+#: templates/base.html:80
+msgid "Donate"
+msgstr "Пожертвования"
+
+#: templates/fallacies.html:4 templates/tabs.html:10
+msgid "Fallacies"
+msgstr "Демагогия"
+
+#: templates/home.html:11
+#, python-format
+msgid ""
+"arguman.org is an <a href=\"%(about_url)s\">argument analysis</a> platform."
+msgstr ""
+"argüman это система <a href=\"%(about_url)s\">анализа аргументации</a>. "
+
+#: templates/newsfeed.html:12
+msgid "What is going on here:"
+msgstr "Что тут нового происходит:"
+
+#: templates/newsfeed.html:16
+msgid "Show only followed users activity."
+msgstr "Показывать деятельность только отслеживаемых пользователей."
+
+#: templates/newsfeed.html:18
+msgid "Show all users activity."
+msgstr "Показывать деятельность всех пользователей."
+
+#: templates/newsfeed.html:35
+msgid "Newsfeed seems empty."
+msgstr "Лента событий пуста."
+
+#: templates/newsfeed/contention.html:2
+msgid "created an argument:"
+msgstr "создал аргумент:"
+
+#: templates/newsfeed/fallacy.html:4
+#, python-format
+msgid "reported <strong>%(fallacy)s</strong> for a premise."
+msgstr "сообщил о <strong>%(fallacy)s</strong> в возражении."
+
+#: templates/newsfeed/following.html:3
+#, python-format
+msgid ""
+"following <a href=\"%(profile_url)s\" class=\"contention-link\">"
+"%(username)s</a>"
+msgstr ""
+"начал следить за <a href=\"%(profile_url)s\" class=\"contention-link\">%(username)s</a>"
+
+#: templates/newsfeed/premise.html:6
+msgid "associated with another argument"
+msgstr "связано с другим аргументом"
+
+#: templates/notifications.html:8
+msgid "Notifications"
+msgstr "Оповещения"
+
+#: templates/notifications/added-premise-for-contention.html:7
+#, python-format
+msgid "added a <span class=\"premise-type %(class)s\">%(label)s</span> premise"
+msgstr ""
+"добавлено возражение <span class=\"premise-type %(class)s\">%(label)s</span>"
+
+#: templates/notifications/added-premise-for-premise.html:6
+#, python-format
+msgid ""
+"added a <span class=\"premise-type %(class)s\">%(label)s</span> premise for"
+msgstr ""
+"добавлено возражение <span class=\"premise-type %(class)s\">%(label)s</span> к"
+
+#: templates/notifications/followed.html:2
+msgid "is following you."
+msgstr "следит за вами."
+
+#: templates/notifications/reported-as-fallacy.html:4
+#, python-format
+msgid "Your premise reported as <strong>%(label)s</strong>"
+msgstr "Ваше возражение было расценено как <strong>%(label)s</strong>."
+
+#: templates/notifications/supported-a-premise.html:6
+msgid "supported your premise"
+msgstr "поддержал ваше возражение"
+
+#: templates/nouns/channel_detail.html:15
+msgid "Regular users"
+msgstr "Частые участники"
+
+#: templates/nouns/detail.html:39 templates/nouns/partial.html:11
+msgid "add new relation"
+msgstr "добавить отношение"
+
+#: templates/nouns/detail.html:52
+msgid "create an argument"
+msgstr "создать аргумент"
+
+#: templates/nouns/new_relation.html:10
+msgid "New Relation"
+msgstr "Новое отношение"
+
+#: templates/nouns/new_relation.html:19
+msgid "Target noun (Singular)"
+msgstr "Существительное (в единственном числе)"
+
+#: templates/nouns/new_relation.html:22
+msgid "Relation types"
+msgstr "Типы отношений"
+
+#: templates/nouns/new_relation.html:23
+msgid ""
+"<p><b>Is a (hypernym and hyponym)</b> A type-of relationship between two "
+"types. For example <i>Organic Process</i> is the hypernym of <i>Évolution</"
+"i>.</p>"
+msgstr ""
+"<p><b>Est un (hyperonyme ou hyponyme)</b> Une relation entre deux types. "
+"Par exemple, <i>Processus organique</i> est l'hypernonyme d'<i>Évolution</"
+"i>.</p>"
+
+#: templates/nouns/new_relation.html:27
+msgid ""
+"<p><b>Part of (holonymy and meronymy)</b> A part/whole relationship between "
+"two types. For example <i>Natural Selection</i> is the part of <i>Évolution</"
+"i></p>"
+msgstr ""
+"<p><b>Partie de (holonymie et méronymie)</b> Relation entre partie et tout."
+" Par exemple, <i>Séléction naturelle</i> est une partie d'<i>Évolution</i>"
+
+#: templates/nouns/new_relation.html:31
+msgid ""
+"<p><b>Opposite with (antonym)</b> The opposite meaning of the type. For "
+"example, <i>Évolution</i> and <i>DÉvolution</i></p>"
+msgstr ""
+"<p><b>Opposé avec (antonyme)</b> Le sens opposé. Par exemple, "
+"<i>Évolution</i> et <i>Invariabilité</i></p>"
+
+#: templates/partials/channel_list.html:9
+msgid "all channels"
+msgstr "все каналы"
+
+#: templates/partials/notifications.html:16
+msgid "See all"
+msgstr "Читать всё"
+
+#: templates/premises/actions.html:3 templates/premises/list_view.html:13
+#: templates/premises/premise.html:90 templates/premises/thread.html:105
+#: templates/premises/tree_view.html:26
+msgid "add premise"
+msgstr "возразить"
+
+#: templates/premises/actions.html:7 templates/premises/premise.html:96
+#: templates/premises/thread.html:97
+msgid "remove"
+msgstr "удалить"
+
+#: templates/premises/base_contention.html:6
+msgid "Argument Map"
+msgstr "Карта аргументов"
+
+#: templates/premises/base_contention.html:33
+msgid "sender"
+msgstr "от"
+
+#: templates/premises/base_contention.html:41
+msgid "source"
+msgstr "источник"
+
+#: templates/premises/base_contention.html:47
+msgid "Unspecified"
+msgstr "Не указан"
+
+#: templates/premises/base_contention.html:54
+msgid "RANDOM"
+msgstr "СЛУЧАЙНО"
+
+#: templates/premises/base_contention.html:60
+msgid "RELATED ARGUMENTS"
+msgstr "СВЯЗАННЫЕ АРГУМЕНТЫ"
+
+#: templates/premises/base_contention.html:75
+msgid "share"
+msgstr "поделиться"
+
+#: templates/premises/base_contention.html:82
+msgid "view"
+msgstr "посмотреть"
+
+#: templates/premises/base_contention.html:84
+msgid "Tree"
+msgstr "Дерево"
+
+#: templates/premises/base_contention.html:85
+msgid "List"
+msgstr "Список"
+
+#: templates/premises/contention.html:11 templates/premises/premise.html:32
+msgid "sender:"
+msgstr "от:"
+
+#: templates/premises/contention_list.html:22
+#: templates/premises/tree_view.html:66
+msgid "objection rate"
+msgstr "степень несогласия"
+
+#: templates/premises/contention_list.html:25
+#: templates/premises/tree_view.html:61
+msgid "support rate"
+msgstr "степень поддержки"
+
+#: templates/premises/contention_list.html:28
+#: templates/premises/tree_view.html:71
+msgid "Neutral support and objection rate."
+msgstr "Нейтральная степень поддержки или несогласия."
+
+#: templates/premises/contention_list.html:62
+msgid "No results found."
+msgstr "Ничего не найдено."
+
+#: templates/premises/edit_contention.html:8
+msgid "Edit Argument"
+msgstr "Редактировать аргумент"
+
+#: templates/premises/edit_contention.html:16
+msgid "Remove the argument"
+msgstr "Удалить аргумент"
+
+#: templates/premises/edit_premise.html:7
+msgid "Edit Premise"
+msgstr "Редактировать возражение"
+
+#: templates/premises/examples/contention.html:2
+msgid ""
+"The main contention. It will be arguable with own premises. The Premises can "
+"prove or rebuttal this contention.<br> Examples: <ul> <li>Real art is for "
+"society, not for profit</li> <li>The meaning of life is 42</li> <li>Ethics "
+"man did what had to be done</li> </ul>"
+msgstr ""
+"L'affirmation principale. Elle sera contestable par des prémisses. "
+"Les prémisses.<br> Exemples&nbsp;:<ul><li>L'art véritable est social, pas marchand."
+"</li><li>42 est le sens de la vie.</li><li>Etre éthique c'est faire ce que "
+"l'on à faire.</li></ul>"
+
+#: templates/premises/examples/fallacy.html:2
+msgid ""
+"You have to choose a fallacy type. For more information, you can look at the "
+"<a href=\"https://en.wikipedia.org/wiki/List_of_fallacies\">wikipedia entry</"
+"a> for fallacies."
+msgstr ""
+"Вам надо указать тип логической ошибки. Больше информации о логических ошибках "
+"можно найти тут: <a href='http://ru.rationalwiki.org/wiki/%D0%9B%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B0'>http://ru.rationalwiki.org/wiki/Логическая_ошибка</a>."
+
+#: templates/premises/examples/owner.html:2
+msgid ""
+"The owner of argument. It can be instutation, person, book, or a paper. "
+"Examples: <ul> <li>On the Origin of Species</li> <li>Friedrich Nietzsche</"
+"li> <li>Piet Mondiran</li> <li>The Guardian</li> </ul>"
+msgstr ""
+"La source de la thèse. Peut-être une personne, un livre, un journal ou une "
+"institution. Exemples&nbsp;: <ul><li>Pierre Bourdieu</li><li>Friedrich Nietzsche"
+"</li><li>Guido Van Rossum</li><li>Le Monde Diplomatique</li></ul>"
+
+#: templates/premises/examples/premise.html:2
+msgid ""
+"Example: We define happiness as a state of well-being, starting with being "
+"alive instead of dead."
+msgstr ""
+"Exemple&nbsp;: Nous définissons le bonheur comme un état de bien être, en "
+"commençant par être vivant au lieu d'être mort."
+
+#: templates/premises/examples/premise_source.html:2
+msgid "Example: Charles Darwin's The Origin of Species"
+msgstr "Пример: \"Происхождение видов\" Чарлза Дарвина"
+
+#: templates/premises/examples/premise_type.html:3
+msgid ""
+"The type of premise. It can be: <ul> <li> but: An objection against the "
+"contention. </li> <li> because: A reason for proof the contention. </li> "
+"<li> however: An additional situation for the premise. </li> </ul>"
+msgstr ""
+"Le type de prémisse. Cela pourrait être&nbsp;:<ul>\t<li>mais&nbsp;: "
+"Une objection à la thèse.</li>\t<li>parce que: Une cause qui implique "
+"la thèse.</li>\t<li>cependant&nbsp;: Une précision apportée à la thèse.</li></ul>"
+
+#: templates/premises/examples/sources.html:2
+msgid ""
+"The source of argument. It can be a URL, a book, or a newspaper. It is "
+"important for reliability of main contention."
+msgstr ""
+"La source de la thèse. Peut-être une URL, un livre ou un journal. Important "
+"pour la solidité de la thèse principale."
+
+#: templates/premises/list_view.html:20
+msgid "Go to parent premise"
+msgstr "Перейти к родительскому возражению"
+
+#: templates/premises/new_contention.html:9
+msgid "Save and continue to edit"
+msgstr "Сохранить и продолжить редактирование"
+
+#: templates/premises/new_premise.html:9
+msgid "The parent premise:"
+msgstr "Родительское возражение:"
+
+#: templates/premises/new_premise.html:29
+msgid "Characters remaining: "
+msgstr "Осталось символов: "
+
+#: templates/premises/new_premise.html:49
+msgid "(change)"
+msgstr "(изменить)"
+
+#: templates/premises/premise.html:12
+msgid "score:"
+msgstr "итог:"
+
+#: templates/premises/premise.html:28 templates/premises/thread.html:67
+msgid "sources:"
+msgstr "источники:"
+
+#: templates/premises/premise.html:46 templates/premises/thread.html:74
+#, python-format
+msgid "%(count)s fallacy reported."
+msgid_plural "%(count)s fallacies reported."
+msgstr[0] "%(count)s жалоба на демагогию."
+msgstr[1] "%(count)s жалоб на демагогию."
+
+#: templates/premises/premise.html:60 templates/premises/premise.html.py:105
+#: templates/premises/premise.html:107 templates/premises/premise.html:111
+#: templates/premises/thread.html:113
+msgid "undo"
+msgstr "отменить"
+
+#: templates/premises/premise.html:79 templates/premises/thread.html:48
+#, python-format
+msgid "%(count)s supporter."
+msgid_plural "%(count)s supporters."
+msgstr[0] "%(count)s поддерживает."
+msgstr[1] "%(count)s поддерживают."
+
+#: templates/premises/premise.html:93 templates/premises/thread.html:90
+#: templates/premises/tree_view.html:24
+msgid "edit"
+msgstr "редактировать"
+
+#: templates/premises/premise.html:97 templates/premises/thread.html:98
+msgid "Are you sure to remove this premise?"
+msgstr "Вы точно хотите удалить это возражение?"
+
+#: templates/premises/premise.html:105 templates/premises/premise.html:111
+#: templates/premises/premise.html:113 templates/premises/thread.html:119
+msgid "support"
+msgstr "поддержать"
+
+#: templates/premises/premise.html:119 templates/premises/thread.html:124
+msgid "report fallacy"
+msgstr "отметить демагогию"
+
+#: templates/premises/report.html:7
+msgid "The premise:"
+msgstr "Возражение:"
+
+#: templates/premises/report.html:13
+msgid "Report Fallacy"
+msgstr "Сообщение о демагогии"
+
+#: templates/premises/thread.html:126
+msgid "open in tree view"
+msgstr "открыть древовидное отображение"
+
+#: templates/premises/tree.html:22
+msgid "branch"
+msgstr "ветка"
+
+#: templates/premises/tree_view.html:14
+msgid "You can use arrow keys to navigate in the map."
+msgstr "Вы можете использовать стрелки для навигации по карте."
+
+#: templates/premises/tree_view.html:16
+msgid "Loading tree..."
+msgstr "Загрузка дерева..."
+
+#: templates/premises/tree_view.html:39
+msgid "The argument have no premises."
+msgstr "Аргумент не имеет возражений."
+
+#: templates/premises/tree_view.html:41
+msgid "Add a premise"
+msgstr "Добавить возражение"
+
+#: templates/premises/tree_view.html:44
+msgid "Edit argument"
+msgstr "Редактировать аргумент"
+
+#: templates/premises/tree_view.html:52
+msgid "The argument is too complex. You can switch to list view."
+msgstr "Дискуссия слишком сложная. Вы можете просмотреть её в виде списка."
+
+#: templates/premises/tree_view.html:77
+msgid "last update:"
+msgstr "последнее обновление:"
+
+#: templates/profiles/social_providers.html:3
+msgid "Login with Twitter"
+msgstr "Зайти через Twitter"
+
+#: templates/search/contention.html:8 templates/stats/contention.html:8
+msgid "PARTICIPANT"
+msgstr "УЧАСТНИК"
+
+#: templates/search/contention.html:12 templates/stats/contention.html:12
+msgid "BECAUSE"
+msgstr "ПОТОМУ ЧТО"
+
+#: templates/search/contention.html:16 templates/stats/contention.html:16
+msgid "BUT"
+msgstr "НО"
+
+#: templates/search/contention.html:20 templates/stats/contention.html:20
+msgid "HOWEVER"
+msgstr "ОДНАКО"
+
+#: templates/search/profile.html:9 templates/stats/profile.html:9
+msgid "FOLLOWER"
+msgstr "ПОСЛЕДОВАТЕЛЬ"
+
+#: templates/search/profile.html:13 templates/stats/profile.html:13
+msgid "ARGUMENT"
+msgstr "АРГУМЕНТ"
+
+#: templates/search/profile.html:17 templates/stats/profile.html:17
+msgid "PREMISE"
+msgstr "ВОЗРАЖЕНИЕ"
+
+#: templates/search/profile.html:21
+msgid "SUPPORT"
+msgstr "ПОДДЕРЖКА"
+
+#: templates/search/search.html:7
+msgid "Keywords:"
+msgstr "Ключевые слова:"
+
+#: templates/search/search.html:14
+msgid "contentions"
+msgstr "предмет спора"
+
+#: templates/search/search.html:17
+msgid "users"
+msgstr "пользователи"
+
+#: templates/search/search.html:20
+msgid "premises"
+msgstr "возражения"
+
+#: templates/stats.html:6 templates/tabs.html:13
+msgid "Statistics"
+msgstr "Статистика"
+
+#: templates/stats.html:9
+msgid "most active users"
+msgstr "самые активные пользователи"
+
+#: templates/stats.html:10
+msgid "highest user karma"
+msgstr "самая высокая карма"
+
+#: templates/stats.html:11
+msgid "most crowded arguments"
+msgstr "самые жаркие дискуссии"
+
+#: templates/stats.html:12
+msgid "most supported premises"
+msgstr "самые одобряемые возражения"
+
+#: templates/stats.html:13
+msgid "most fallacy premises"
+msgstr "самые демагогические возражения"
+
+#: templates/stats.html:18
+msgid "this week"
+msgstr "за эту неделю"
+
+#: templates/stats.html:19
+msgid "this month"
+msgstr "за этот месяц"
+
+#: templates/stats.html:20
+msgid "all time"
+msgstr "за всё время"
+
+#: templates/stats/profile.html:21
+msgid "KARMA"
+msgstr "КАРМА"
+
+#: templates/tabs.html:4
+msgid "Newsfeed"
+msgstr "Активность"
+
+#: templates/tabs.html:6
+msgid "Featured"
+msgstr "Самое лучшее"
+
+#: templates/tabs.html:8
+msgid "New"
+msgstr "Новое"
+
+#, fuzzy
+#~| msgid "most active users"
+#~ msgid "Active users"
+#~ msgstr "Активные пользователи"
+
+#~ msgid "update"
+#~ msgstr "обновить"
+
+#~ msgid "The feed seems to empty."
+#~ msgstr "Лента пуста."
+
+#~ msgid ""
+#~ "added a <span class=\"premise-type %(class)s\">%(label)s</span> premise "
+#~ "for a premise"
+#~ msgstr ""
+#~ "добавлено возражение <span class=\"premise-type %(class)s\">"
+#~ "%(label)s</span> к возражению"
+
+#~ msgid "You have no new notifications."
+#~ msgstr "У вас нет новых оповещений."
+
+#~ msgid "share:"
+#~ msgstr "поделиться:"
+
+#~ msgid "Recently Updated"
+#~ msgstr "Недавно обновлено"
+
+#~ msgid "Search"
+#~ msgstr "Поиск"
+
+#~ msgid "Argument Analysis Platform"
+#~ msgstr "Система Анализа Дискуссий"
+
+#~ msgid "original discourse:"
+#~ msgstr "оригинальный дискурс:"
+
+#~ msgid "Edit"
+#~ msgstr "Редактировать"
+
+#~ msgid "Unpublish"
+#~ msgstr "Скрыть"
+
+#~ msgid "Publish"
+#~ msgstr "Опубликовать"
+
+#~ msgid "View"
+#~ msgstr "Смотреть"
+
+#~ msgid "last sender:"
+#~ msgstr "последний отправитель:"
+
+#~ msgid "and 1 participant."
+#~ msgid_plural "and %(participants)s participants."
+#~ msgstr[0] "и участник."
+#~ msgstr[1] "и %(participants)s участников."
+
+#~ msgid "and others."
+#~ msgstr "и другие."
+
+#, fuzzy
+#~| msgid "Statistics"
+#~ msgid "Static Files"
+#~ msgstr "Статистика"
+
+#, fuzzy
+#~| msgid "The feed seems to empty."
+#~ msgid "The submitted file is empty."
+#~ msgstr "Добавленный файл пуст."
+
+#, fuzzy
+#~| msgid "Featured"
+#~ msgid "Saturday"
+#~ msgstr "Лучшее"
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgid "March"
+#~ msgstr "Искать"
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgctxt "abbrev. month"
+#~ msgid "March"
+#~ msgstr "Искать"
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgctxt "alt. month"
+#~ msgid "March"
+#~ msgstr "Искать"
+
+#, fuzzy
+#~| msgid "this month"
+#~ msgid "%d month"
+#~ msgid_plural "%d months"
+#~ msgstr[0] "месяц"
+#~ msgstr[1] "месяцы"
+
+#, fuzzy
+#~| msgid "this week"
+#~ msgid "%d week"
+#~ msgid_plural "%d weeks"
+#~ msgstr[0] "неделя"
+#~ msgstr[1] "недели"
+
+#, fuzzy
+#~| msgid "this month"
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "минута"
+#~ msgstr[1] "минуты"
+
+#, fuzzy
+#~| msgid "Unspecified"
+#~ msgid "No year specified"
+#~ msgstr "Не указан"
+
+#, fuzzy
+#~| msgid "Unspecified"
+#~ msgid "No month specified"
+#~ msgstr "Не указан"
+
+#, fuzzy
+#~| msgid "Unspecified"
+#~ msgid "No day specified"
+#~ msgstr "Не указан"
+
+#, fuzzy
+#~| msgid "Unspecified"
+#~ msgid "No week specified"
+#~ msgstr "Не указана"
+
+#, fuzzy
+#~| msgid "Notifications"
+#~ msgid "notification_email"
+#~ msgstr "Оповещения"
+
+#~ msgid "Follow:"
+#~ msgstr "Следить:"
